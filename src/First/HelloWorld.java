@@ -9,6 +9,7 @@ public class HelloWorld {
 	{
 		JFrame kalle = new JFrame("Hello world");
 		JLabel l = new JLabel("Arnold");
+		JLabel a = new JLabel("Git är kosntigt.");
 		kalle.add(l);
 		kalle.pack();
 		kalle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
